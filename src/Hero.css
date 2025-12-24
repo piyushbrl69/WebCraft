@@ -1,0 +1,86 @@
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #020617 0%, #0b1a3a 50%, #020617 100%);
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.hero-inner.simple {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-text h1 {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero-text p {
+  max-width: 520px;
+  font-size: 1.05rem;
+  opacity: 0.85;
+}
+
+.hero-actions.right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.primary {
+  background: #38bdf8;
+  color: #000;
+  padding: 14px 28px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.3s ease-out;
+}
+.primary:hover {
+  background: #0f85b8;
+  transition: 0.3s ease-in;
+}
+.secondary {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  padding: 14px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.25s ease-out;
+}
+.secondary:hover {
+  background: #38bdf8;
+  color: #000;
+  transition: 0.35s ease-in;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 0 20px;
+  }
+
+  .hero-inner.simple {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-actions.right {
+    justify-content: center;
+  }
+}
