@@ -1,4 +1,4 @@
-# UIForge – Responsive Landing Page
+# WebCraft – Responsive Landing Page
 
 UIForge is a modern and responsive landing page developed using React JSX and CSS.  
 The project focuses on clean UI design, smooth navigation, and mobile-first responsiveness.
