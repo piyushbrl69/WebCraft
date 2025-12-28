@@ -1,16 +1,35 @@
-# React + Vite
+# UIForge – Responsive Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+UIForge is a modern and responsive landing page developed using React JSX and CSS.  
+The project focuses on clean UI design, smooth navigation, and mobile-first responsiveness.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fully responsive design (mobile, tablet, desktop)
+- Sticky navigation bar
+- Smooth scrolling between sections
+- Clean and modern user interface
+- Reusable React components
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- HTML
+- CSS
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://landing-page-piyush.netlify.app/
+
+## 📌 Project Purpose
+
+This project was developed to practice responsive web design, component-based architecture, and deployment of React applications.
+
+## 📷 Preview
+
+![App Screenshot](./image.png)
+
+## 📄 License
+
+This project is for learning and demonstration purposes.
